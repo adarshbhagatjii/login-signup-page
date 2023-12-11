@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <style>
+    * {
+    padding: 0;
+    margin: 0;
+    
+}
+    .container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    padding: 25px;
+    border-top: 5px solid blue;
+    box-shadow: 0 0 7px 5px rgba(64, 7, 235, 0.5);
+    background-color: black;
+}
+
+.container h1,h2,p,.btn {
+    color: #ccc;
+    font-size: 24px;
+    text-align: center;
+    
+}
+.container .btn{
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color:rgb(232, 182, 33);
+    border-radius: 30px;
+    color: whitesmoke;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+    </style>
+</head>
+
+<body>
+    {{>navbar}}
+
+</body>
+
+</html>
